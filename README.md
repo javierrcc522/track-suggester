@@ -20,11 +20,9 @@ Support and contact details
 
 If you have any question or concerns contact Javierrcc522@gmail.com
 
-You can also look at the live link: https://javierrcc522.github.io/2port/
-
 Technologies Used
 
-The languages used are HTML, CSS, and bootstrap.
+The languages used are HTML, CSS, and bootstrap, and JavaScript
 
 License
 
