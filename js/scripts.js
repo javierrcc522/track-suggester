@@ -8,10 +8,28 @@ $(document).ready(function(){
 
     $("#resultName").text(name + ", from the data you gave us we recomend you to take   ");
 
-    if (system === "1" && developer === "1") {
+    if (system === "1" && company === "2") {
       $("#resultTrack").text("C# because it seems to fit you best!!");
 
+    } else if (system === "1" && developer === "1") {
+      $("#resultTrack").text("C# because it seems to fit you best");
+
+    }  else if (company === "1" && system === "3") {
+      $("#resultTrack").text("C# because it seems to fit you best");
+
+    } else if (company === "1" && developer === "1") {
+      $("#resultTrack").text("C# because it seems to fit you best");
+
+
+
+    } else if (system === "2" && developer === "2") {
+      $("#resultTrack").text("Java because it seems to fit you best");
+
+    } else if (system === "2" && company === "3") {
+      $("#resultTrack").text("Java because it seems to fit you best");
+
     }
+
 
 
 
