@@ -41,16 +41,34 @@
             </select>
           </div>
 
+          <div class="radio">
+            <label>
+              <input type="radio" name="type of job" value="office" checked>
+              Office
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="type of job" value="home" checked>
+              Remote-home
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="type of job" value="co-work" checked>
+              Co-work
+            </label>
+          </div>
 
           <div class="form-group">
-            <label for="whichTrack">Which programming language sounds more interesting:</label>
-            <select id="whichTrack" class="form-group">
-              <option value="rubyRails">rubyRails</option>
-              <option value="phpDrupal">phpDrupal</option>
-              <option value="javaAndroid">javaAndroid</option>
-              <option value="c#.NET">c#.NET</option>
+            <label for="userPlatform">What type of developer would want to be:</label>
+            <select id="userPlatform" class="form-group">
+              <option value="backEnd">Backend Developer </option>
+              <option value="frontEnd">Frontend Developer</option>
+              <option value="fullStack">Fullstack Developer</option>
             </select>
           </div>
+          <button class="btn" btn-warning type="submit">Submit Info</button>
         </form>
       </div>
     </div>
