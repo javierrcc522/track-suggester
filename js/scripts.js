@@ -1,6 +1,5 @@
 $(document).ready(function(){
   $("form#programmingTrack").submit(function(event) {
-
     var name =$("#userName").val();
     var system = $("#whichOperatingSystem").val();
     var developer = $("#userPlatform").val();
@@ -24,10 +23,6 @@ $(document).ready(function(){
       } else if (company === "3" && developer === "2") {
         $("#resultTrack").text("Ruby because it seems to fit you best!!")
       }
-
-
-
-
 
       $(".well").toggle();
     }
