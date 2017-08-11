@@ -17,13 +17,16 @@ $(document).ready(function(){
       else if (company === "3" && developer === "1") {
         $("#resultTrack").text("Java because it seems to fit you best!!");
       }else if (company === "2" && developer === "1"){
-        $("#resultTrack").text("Php because it seems to fit you best!!");
+        $("#resultTrack").text("Java because it seems to fit you best!!");
       } else if (company === "2" && developer === "2") {
-        $("#resultTrack").text("Php because it seems to fit you best!!")
+        $("#resultTrack").text("Php because it seems to fit you best!!");
       } else if (company === "3" && developer === "2") {
-        $("#resultTrack").text("Ruby because it seems to fit you best!!")
+        $("#resultTrack").text("Ruby because it seems to fit you best!!");
+      } else if (company === "1" && developer === "2") {
+        $("#resultTrack").text("Ruby because it seems to fit you best!!");
+      } else if(developer === "3" && company === "1") {
+        $("#resultTrack").text("Java because it seems to fit you best!!");
       }
-
       $(".well").toggle();
     }
   event.preventDefault();

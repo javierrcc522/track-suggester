@@ -14,7 +14,9 @@
         <div class="jumbotron">
           <h1>Find your programming track</h1>
         </div>
-        <h3>Enter information select more than one option!!</h3>
+        <div id="box">
+          <h3>Enter information select more than one option!!</h3>
+        </div>
       </div>
       <div class="row">
         <form id="programmingTrack">
@@ -22,15 +24,13 @@
             <label for="userName">Enter name</label>
             <input id="userName" type="text" class="form-control">
           </div>
-
           <div class="form-group">
-            <label for="whichOperatingSystem">Which operating system you feel most comfortable with:</label>
+            <label for="whichOperatingSystem">Which <em>Operating System</em> you feel most comfortable with:</label>
             <select id="whichOperatingSystem" class="form-group">
               <option value="1">Windows Microsoft</option>
               <option value="2">Apple Mac OS</option>
             </select>
           </div>
-
           <div class="radio">
             <label>
               <input type="radio" name="industry" value="gaming">
@@ -39,7 +39,7 @@
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="industry" value="mobile">
+              <input type="radio" name="industry" value="mobile" checked>
               Mobile
             </label>
           </div>
@@ -49,18 +49,14 @@
               Business
             </label>
           </div>
-
-
-
           <div class="form-group">
-            <label for="whichEnviroment">What kind of company would you like to work in:</label>
+            <label for="whichEnviroment">What kind of <strong>Company</strong> would you like to work in:</label>
             <select id="whichEnviroment" class="form-group">
               <option value="1">Larger Companies</option>
               <option value="2">Security Stability Companies</option>
               <option value="3">Startups and Smaller Companies</option>
             </select>
           </div>
-
           <div class="radio">
             <label>
               <input type="radio" name="type of job" value="office" checked>
@@ -79,15 +75,14 @@
               Co-work
             </label>
           </div>
-
           <div class="form-group">
-            <label for="userPlatform">What type of developer would want to be:</label>
+            <label for="userPlatform">What type of <em>Developer</em> would want to be:</label>
             <select id="userPlatform" class="form-group">
               <option value="1">Backend Developer </option>
               <option value="2">Frontend Developer</option>
             </select>
           </div>
-          <button class="btn" btn-warning type="submit">Submit Info</button>
+          <button class="btn btn-info" btn-warning type="submit">Submit Info</button>
         </form>
       </div>
       <div class="row">
